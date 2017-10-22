@@ -1,5 +1,7 @@
 FROM continuumio/anaconda3:latest
 
+MAINTAINER Sartaj Singh <singhsartaj94@gmail.com>
+
 # install make
 RUN apt-get update -y
 RUN apt-get install -y make g++
